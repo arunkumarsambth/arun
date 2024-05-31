@@ -5,12 +5,17 @@
     text-transform: uppercase;
   }
   .banner{
-    background-image:url(../portfolio/image/jess-bailey-q10VITrVYUM-unsplash.jpg);
+    background-image:url(./image/jess-bailey-q10VITrVYUM-unsplash.jpg);
     padding: 300px;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .padding{
     padding-bottom: 20px;
+  }
+  @media(max-width:526px){
+    .banner{
+      padding: 100px 0;
+    }
   }
 
