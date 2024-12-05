@@ -162,7 +162,8 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form name="contact" method="post" data-netlify="submit">
+                    <form name="contact" method="post" data-netlify="submit" data-netlify-recaptcha="true">
+                       <input class="d-none" name="re-captcha">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">name</label>
                             <input type="text" class="form-control" name="name"/>
