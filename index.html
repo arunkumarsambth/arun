@@ -162,32 +162,25 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form>
+                    <form name="contact" method="post" data-netlify="submit">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">name</label>
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" name="name"/>
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">mobile</label>
-                            <input type="number" class="form-control" />
+                            <input type="number" class="form-control" name="number"/>
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com" />
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label text-lowercase">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                placeholder="name@example.com" name="email"/>
                         </div>
                         <div class="col-auto">
                             
                             <button type="submit" class="btn btn-primary mb-3">submit</button>
                         </div>
-                        <div>
-                            <input type="hidden" name="form-name" value="contact" />
-                            <input type="hidden" name="form-name" value="name_of_my_form"/>
-                        </div>
+                       
                     </form>
                 </div>
             </div>
