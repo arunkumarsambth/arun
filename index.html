@@ -162,7 +162,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form name="contact" method="post" data-netlify="submit" data-netlify-recaptcha="true">
+                    <form name="contact" action="post" data-netlify="submit" >
                        <input class="d-none" name="re-captcha">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">name</label>
@@ -180,6 +180,7 @@
                             <label for="purpose" class="form-label">purpuse of contact</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="text-area" name='reason'/>
+                            <div data-netlify-recaptcha="true"></div>
                         <div class="col-auto">
                             
                             <button type="submit" class="btn btn-primary mb-3" onclick="alt()">submit</button>
